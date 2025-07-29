@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupert's UFC Hub</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="bg-gray-800 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-bold text-red-500 hover:text-red-600">Rupert's UFC Hub</a>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html" class="text-lg hover:text-red-500 transition duration-300">Home</a></li>
+          <li><a href="interviews.html" class="text-lg hover:text-red-500 transition duration-300">Interviews</a></li>
+          <li><a href="news.html" class="text-lg hover:text-red-500 transition duration-300">News</a></li>
+          <li><a href="events.html" class="text-lg hover:text-red-500 transition duration-300">Events</a></li>
+          <li><a href="gallery.html" class="text-lg hover:text-red-500 transition duration-300">Gallery</a></li>
+          <li><a href="chat.html" class="text-lg hover:text-red-500 transition duration-300">Chat</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto my-8 p-6 bg-gray-800 rounded-lg shadow-lg">
+    <h1 class="text-4xl font-bold text-red-500 mb-6">Welcome to Rupert's UFC Hub!</h1>
+    <p class="text-lg leading-relaxed mb-4">Your ultimate source for everything UFC. Dive into exclusive interviews, stay updated with the latest news, check out upcoming events, browse through thrilling fight galleries, and connect with other fans in our chat room.</p>
+    
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+      <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold text-red-400 mb-3">Player Interviews</h2>
+        <p class="mb-4">Get up close and personal with your favorite UFC fighters. Exclusive insights and behind-the-scenes stories.</p>
+        <a href="interviews.html" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300">View Interviews</a>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold text-red-400 mb-3">Latest UFC News</h2>
+        <p class="mb-4">Stay on top of all the breaking news, fight announcements, and expert analysis from the world of UFC.</p>
+        <a href="news.html" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300">Read News</a>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold text-red-400 mb-3">Upcoming Events</h2>
+        <p class="mb-4">Don't miss a single knockout! Check out the full schedule of upcoming UFC fights and pay-per-views.</p>
+        <a href="events.html" class="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300">See Events</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-gray-800 p-4 mt-8 text-center text-gray-400">
+    <div class="container mx-auto">
+      <p>&copy; 2023 Rupert's UFC Hub. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
